@@ -12,7 +12,8 @@ PKG_VERSION:=0.14.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://www.lesbonscomptes.com/upmpdcli/downloads
+PKG_SOURCE_URL:=http://www.lesbonscomptes.com/upmpdcli/downloads \
+		https://sources.lede-project.org/
 PKG_HASH:=13027f8e2b5341d00370ccf34eb8845f1bce73ec58890c02a38dc639e9f91b13
 PKG_MAINTAINER:=Petko Bordjukov <bordjukov@gmail.com>
 PKG_LICENSE:=GPL-2.0
